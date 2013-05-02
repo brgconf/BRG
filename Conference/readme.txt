@@ -1,0 +1,1 @@
+This folder contains user folders for the Business Rules! Group Conference
