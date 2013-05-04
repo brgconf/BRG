@@ -1,0 +1,7 @@
+SCREEN OPENDFLT  rows=30,cols=90,CONV=*,caption=CTS,Buttonrows=0
+ 
+TYPEAHEAD ON
+ 
+INCLUDE BRSample\ATTRIBUTE.SYS
+ 
+ 

@@ -1,0 +1,130 @@
+REM Fixed Attribute
+ATTRIBUTE [A]S/#1636BF:#FFFFFF font=Terminal:medium:Width- ! Active Data Fields
+ATTRIBUTE [D]S/#000000:#FFFFFF font=Terminal:medium:Width- ! Data Field
+ATTRIBUTE [P]S/#ACAEAB:#FFFFFF font=Terminal:medium:Width- ! Protected/Display Fields
+ATTRIBUTE [M]/#00006D:#DDE8F5 font=Terminal ! Menu
+ATTRIBUTE [MT]/#000000:#E0DDD7 font=Terminal:bold ! Menu (Titles)
+ATTRIBUTE [N]/#696969:#DDE8F5 font=Terminal ! Menu Border (Titles)
+ATTRIBUTE [O]/#4F7BC9:#DDE8F5 font=Terminal ! Menu Options (Help Keys)
+ATTRIBUTE [S]/#000000:#DDE8F5 font=Terminal ! Screen prompts/color
+ATTRIBUTE [I]/#000080:#DDE8F5 font=Terminal ! Information Message
+ATTRIBUTE [W]/#38693D:#DDE8F5 font=Terminal ! Window
+ATTRIBUTE [X]/#000000:#DDE8F5 font=Terminal ! Border for Windows
+ATTRIBUTE [L]/#FFFFFF:#0A246A font=Terminal ! Light Bar
+ATTRIBUTE [G]/#263C78:#FFFFFF font=Terminal ! Dialogue Window
+ATTRIBUTE [H]/#78A4D2:#FFFFFF font=Terminal ! Dialogue Window Border
+ATTRIBUTE [T]/#316AC5:#FFFFFF font=Terminal ! Selection Window
+ATTRIBUTE [U]/#000000:#FFFFFF font=Terminal ! Selection Window Border
+ATTRIBUTE [E]/#FFFFFF:#BF0512 font=Terminal ! Error field/Window
+ATTRIBUTE [F]/#FFFFFF:#BF0512 font=Terminal ! Border for Error Window
+ATTRIBUTE [B]/#000000:#E0DDD7 font=Terminal:medium:Width- ! Buttons
+ 
+REM Proportional Attribute
+ATTRIBUTE [PA]S/#1636BF:#FFFFFF font=Arial:bold:medium:Width- ! Active Data Fields
+ATTRIBUTE [PD]S/#000000:#FFFFFF font=Arial:bold:medium:Width- ! Data Field
+ATTRIBUTE [PP]S/#ACAEAB:#FFFFFF font=Arial:bold:medium:Width- ! Protected/Display Fields
+ATTRIBUTE [PM]/#00006D:#DDE8F5 ! Menu
+SETENV ATTRIBUTE_PM /#00006D:#DDE8F5 ! Menu
+ATTRIBUTE [PMT]/#000000:#E0DDD7 font=Arial:bold ! Menu (Titles)
+ATTRIBUTE [PN]/#696969:#DDE8F5 ! Menu Borders (titles)
+ATTRIBUTE [PO]/#4F7BC9:#DDE8F5 ! Menu Options (Help Keys)
+ATTRIBUTE [PS]/#000000:#DDE8F5 ! Screen prompts/color
+ATTRIBUTE [PI]/#000080:#DDE8F5 ! Information Message
+ATTRIBUTE [PW]/#38693D:#DDE8F5 ! Window
+ATTRIBUTE [PX]/#000000:#DDE8F5 ! Border for Windows
+ATTRIBUTE [PL]/#FFFFFF:#0A246A ! Light Bar
+ATTRIBUTE [PG]/#263C78:#FFFFFF ! Dialogue Window
+ATTRIBUTE [PH]/#78A4D2:#FFFFFF ! Dialogue Window Border
+ATTRIBUTE [PT]/#316AC5:#FFFFFF ! Selection Window
+ATTRIBUTE [PU]/#000000:#FFFFFF ! Selection Window Border
+ATTRIBUTE [PE]/#FFFFFF:#BF0512 ! Error field/Window
+ATTRIBUTE [PF]/#FFFFFF:#BF0512 ! Border for Error Window
+ATTRIBUTE [PB]/#000000:#E0DDD7 font=Arial:light:medium:Width- ! Buttons
+SETENV ATTRIBUTE_PB /#000000:#E0DDD7 font=Arial:light:medium:Width- ! Buttons
+ 
+REM Proportional Window Attribute
+ATTRIBUTE [PWA]S/#1636BF:#FFFFFF font=Arial:bold:medium:Width ! Active Data Fields
+ATTRIBUTE [PWD]S/#000000:#FFFFFF font=Arial:bold:medium:Width ! Data Field
+ATTRIBUTE [PWP]S/#ACAEAB:#FFFFFF font=Arial:bold:medium:Width ! Protected/Display Fields
+ATTRIBUTE [PWM]/#00006D:#D2E1F1 ! Menu
+ATTRIBUTE [PWMT]/#000000:#E0DDD7 font=Arial:bold ! Menu (Titles)
+ATTRIBUTE [PWN]/#696969:#D2E1F1 ! Menu Borders (titles)
+ATTRIBUTE [PWO]/#4F7BC9:#D2E1F1 ! Menu Options (Help Keys)
+ATTRIBUTE [PWS]/#000000:#D2E1F1 ! Screen prompts/color
+ATTRIBUTE [PWI]/#000080:#D2E1F1 ! Information Message
+ATTRIBUTE [PWW]/#38693D:#D2E1F1 ! Window
+ATTRIBUTE [PWX]/#000000:#D2E1F1 ! Border for Windows
+ATTRIBUTE [PWL]/#FFFFFF:#0A246A ! Light Bar
+ATTRIBUTE [PWG]/#263C78:#FFFFFF ! Dialogue Window
+ATTRIBUTE [PWH]/#78A4D2:#FFFFFF ! Dialogue Window Border
+ATTRIBUTE [PWT]/#316AC5:#FFFFFF ! Selection Window
+ATTRIBUTE [PWU]/#000000:#FFFFFF ! Selection Window Border
+ 
+REM Proportional List and Grid Attribute
+ATTRIBUTE [PLGA]/#263C78:#FFFFFF font=Arial:bold:medium:Width ! Active Data Fields
+ATTRIBUTE [PLGD]/#78A4D2:#FFFFFF font=Arial:bold:medium:Width ! Data Field
+ATTRIBUTE [PLGP]/#ACAEAB:#FFFFFF font=Arial:bold:medium:Width ! Protected/Display Fields
+ATTRIBUTE [PLGM]/#00006D:#FFFFFF font=Arial:bold:medium:Width ! Menu
+ATTRIBUTE [PLGMT]/#000000:#E0DDD7 font=Arial:medium:Width ! Menu (Titles)
+ATTRIBUTE [PLGN]/#696969:#FFFFFF font=Arial:bold:medium:Width ! Menu Border (Titles)
+ATTRIBUTE [PLGO]/#4F7BC9:#FFFFFF font=Arial:bold:medium:Width ! Menu Options (Help Keys)
+ATTRIBUTE [PLGS]/#000000:#FFFFFF font=Arial:bold:medium:Width ! Screen prompts/color
+ATTRIBUTE [PLGI]/#000080:#FFFFFF font=Arial:bold:medium:Width ! Information Message
+ATTRIBUTE [PLGW]/#38693D:#FFFFFF font=Arial:bold:medium:Width ! Window
+ATTRIBUTE [PLGX]/#191970:#FFFFFF font=Arial:bold:medium:Width ! Border for Windows
+ATTRIBUTE [PLGL]/#FFFFFF:#0A246A font=Arial:bold:medium:Width ! Light Bar
+ATTRIBUTE [PLGT]/#778899:#FFFFFF font=Arial:bold:medium:Width ! Selection Window
+ATTRIBUTE [PLGU]/#D2B48C:#FFFFFF font=Arial:bold:medium:Width ! Selection Window Border
+ 
+REM Proportional Window White Attribute
+ATTRIBUTE [PWWA]/#1636BF:#FFFFFF ! Active Data Fields
+ATTRIBUTE [PWWD]/#000000:#FFFFFF ! Data Field
+ATTRIBUTE [PWWP]/#ACAEAB:#FFFFFF ! Protected/Display Fields
+ATTRIBUTE [PWWM]/#00006D:#FFFFFF ! Menu
+ATTRIBUTE [PWWMT]/#000000:#E0DDD7 font=Arial:bold ! Menu (Titles)
+ATTRIBUTE [PWWN]/#696969:#FFFFFF ! Menu Border (Titles)
+ATTRIBUTE [PWWO]/#4F7BC9:#FFFFFF ! Menu Options (Help Keys)
+ATTRIBUTE [PWWS]/#000000:#FFFFFF ! Screen prompts/color
+ATTRIBUTE [PWWI]/#000080:#FFFFFF ! Information Message
+ATTRIBUTE [PWWW]/#38693D:#FFFFFF ! Window
+ATTRIBUTE [PWWX]/#316AC5:#FFFFFF ! Border for Windows
+ATTRIBUTE [PWWL]/#FFFFFF:#0A246A ! Light Bar
+ATTRIBUTE [PWWT]/#316AC5:#FFFFFF ! Selection Window
+ATTRIBUTE [PWWU]/#316AC5:#FFFFFF ! Selection Window Border
+
+REM Fixed Window White Attribute
+ATTRIBUTE [WA]/#1636BF:#FFFFFF font=Terminal:medium:Width ! Active Data Fields
+ATTRIBUTE [WD]/#000000:#FFFFFF font=Terminal:medium:Width ! Data Field
+ATTRIBUTE [WP]/#ACAEAB:#FFFFFF font=Terminal:medium:Width ! Protected/Display Fields
+ATTRIBUTE [WM]/#00006D:#FFFFFF font=Terminal:medium:Width ! Menu
+ATTRIBUTE [WMT]/#000000:#E0DDD7 font=Terminal:bold ! Menu (Titles)
+ATTRIBUTE [WN]/#696969:#FFFFFF font=Terminal:medium:Width ! Menu Border (Titles)
+ATTRIBUTE [WO]/#4F7BC9:#FFFFFF font=Terminal:medium:Width ! Menu Options (Help Keys)
+ATTRIBUTE [WS]/#000000:#FFFFFF font=Terminal:medium:Width ! Screen prompts/color
+ATTRIBUTE [WI]/#000080:#FFFFFF font=Terminal:medium:Width ! Information Message
+ATTRIBUTE [WW]/#38693D:#FFFFFF font=Terminal:medium:Width ! Window
+ATTRIBUTE [WX]/#316AC5:#FFFFFF font=Terminal:medium:Width ! Border for Windows
+ATTRIBUTE [WL]/#FFFFFF:#0A246A font=Terminal:medium:Width ! Light Bar
+ATTRIBUTE [WT]/#316AC5:#FFFFFF font=Terminal:medium:Width ! Selection Window
+ATTRIBUTE [WU]/#316AC5:#FFFFFF font=Terminal:medium:Width ! Selection Window Border
+ 
+REM On-Line Help Attribute
+ATTRIBUTE [HPROMPT]/#38693D:#DDE8F5 font=Terminal ! Prompt
+ATTRIBUTE [HTEXT]/#000000:#DDE8F5 font=Terminal ! Text
+ATTRIBUTE [HLIGHTBAR]/#FFFFFF:#0A246A font=Terminal ! Lightbar
+ATTRIBUTE [HMENU]/#00006D:#DDE8F5 font=Terminal ! Menu
+ 
+REM Screen Attribute
+ATTRIBUTE [SN]/#000000:#E6ECF4 font=Terminal ! Normal
+ATTRIBUTE [SR]/#FFFFFF:#0A246A font=Terminal ! Reverse
+ATTRIBUTE [SU]/#3E7BB9:#E6ECF4 font=Terminal ! Underline
+ATTRIBUTE [SB]/#BF0A57:#E6ECF4 font=Terminal ! Blinking
+ATTRIBUTE [SH]/#00006D:#E6ECF4 font=Terminal ! Highlight
+ATTRIBUTE [SI]/#191970:#FFFFFF font=Terminal ! Invisible
+ATTRIBUTE [SC]/#191970:#FFFFFF font=Terminal ! Command Console
+ATTRIBUTE [SS]/#5076A5:#E6ECF4 font=Terminal ! Status Line
+
+ATTRIBUTE [INACTIVE] [PWWP]
+
+SCREEN N [SN],R [SR],U [SU],B [SB],H [SH],I [SI],C [SC],S [SS] ! Screen Statement
+
